@@ -1,0 +1,27 @@
+{
+  "name": "spider-exchange-back",
+  "version": "1.0.0",
+  "description": "back for speder-exchange",
+  "repository": "git@github.com:xenonhammer/spider-exchange-back.git",
+  "author": "Артур <xenonhammer46@gmail.com>",
+  "license": "AGPL-3.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve ./dist/bundle.js",
+    "dev": "webpack --watch --mode=development",
+    "build": "webpack --mode=prodaction"
+  },
+  "dependencies": {
+    "@types/express": "types/express",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
