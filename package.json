@@ -7,7 +7,7 @@
   "license": "AGPL-3.0",
   "private": true,
   "scripts": {
-    "start": "webpack serve ./dist/bundle.js",
+    "start": "node ./dist/bundle.js",
     "dev": "webpack --watch --mode=development",
     "build": "webpack --mode=prodaction"
   },
@@ -15,6 +15,7 @@
     "@types/express": "types/express",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "ioredis": "^5.1.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

@@ -6,4 +6,5 @@ route.get('/',(_req: Request, res: Response) => {
   res.send('hello world');
 })
 
+
 export default route;
